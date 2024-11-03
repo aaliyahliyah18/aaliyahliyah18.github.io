@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aaliyah Odumosu Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Aaliyah Odumosu</div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <nav id="hamburger-nav">
+        <div class="logo">Aaliyah Odumosu</div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          </div>
+        </div>
+      </nav>
+      <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/AOdumosuprofilepic2.png" alt="Aaliyah Odumosu profile picture" />
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Aaliyah Odumosu</h1>
+            <p class="section__text__p2">Data Analyst</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/AaliyahOdumosuOnlineDataAnalystCV2024.pdf')">Download CV</button>
+                
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="My linkedin profile" class="icon" onclick="location.href='https://linkedin.com/in/aaliyah-odumosu'">
+                <img src="./assets/github.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/aaliyahliyah18'">
+            </div>
+        </div>
+      </section>
+      <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/aboutMePic.png" alt="Profile picture" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-containers">
+                        <img src="./assets/experience.png" alt="experience icon" class="icon">
+                        <h3>Experience</h3>
+                        <p>1+ years <br/>Data Analysis </p>
+                    </div>
+                    <div class="details-containers">
+                        <img src="./assets/education.png" alt="education icon" class="icon">
+                        <h3>Education</h3>
+                        <p>BSc (Hons) Digital and Technology Solutions </p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p> I am an Apprentice Data Analyst with a strong foundation in digital marketing and a passion for cybersecurity and open-source research. I am actively seeking opportunities to deepen my knowledge and expertise in these fields.
+
+                        I am currently pursuing a Degree Apprenticeship in Digital & Technology Solutions (Data Analysis), where I utilise my skills in Python and SQL to drive insights and inform strategic decisions.
+                    
+                    </p>
+                </div>
+            
+            </div>
+            
+        </div>
+        <div class="text-container-2">
+            <p>My background in digital marketing provides me with a unique perspective, enhancing my ability to analyse data and uncover meaningful insights. I am eager to explore various industries, with current interests in digital forensics and technical analysis. My goal is to find my niche, combining my skills, interests, and hobbies to bring something unique and valuable to businesses.
+
+                In my spare time, I enjoy developing my skills in CAD and experimenting with new techniques in jewellery design. By merging technology with metalsmithing, I create unique pieces in gold and silver, bringing my visions to life.</p>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'">
+      </section>
+      <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-containers">
+                    <h2 class="experience-sub-title">Languages</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>SQL</h3>
+                                <p>Proficient</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>Python</h3>
+                                <p>Proficient</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>SAS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>R</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        
+                    </div>
+                </div>
+                <div class="details-containers">
+                    <h2 class="experience-sub-title">Tools & Technologies</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>PostgreSQL</h3>
+                                <p>Proficient</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>Excel</h3>
+                                <p>Proficient</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>Pandas</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>Tableau</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>PowerBI</h3>
+                                <p>Proficient</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>AWS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'">
+      </section>
+      <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-containers color-container">
+                <div class="article-container">
+                    <img src="./assets/project-1.png" alt="project 1" class="project-img"/>
+                </div>
+                <h2 class="experience-sub-title project-title">Project One</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https:github.com/'"> 
+                        <!-- Maybe link to a google drive folder with all the project outputs, instead of github -->
+                        <!-- Maybe github for those that are on github -->
+                        Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https:github.com/'"> 
+                        <!-- Maybe link to a google drive folder with all the project outputs, instead of github -->
+                        <!-- Maybe github for those that are on github -->
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+            <div class="details-containers color-container">
+                <div class="article-container">
+                    <img src="./assets/project-2.png" alt="project 2" class="project-img"/>
+                </div>
+                <h2 class="experience-sub-title project-title">Project Two</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https:github.com/'"> 
+                        <!-- Maybe link to a google drive folder with all the project outputs, instead of github -->
+                        <!-- Maybe github for those that are on github -->
+                        Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https:github.com/'"> 
+                        <!-- Maybe link to a google drive folder with all the project outputs, instead of github -->
+                        <!-- Maybe github for those that are on github -->
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+            <div class="details-containers color-container">
+                <div class="article-container">
+                    <img src="./assets/project-3.png" alt="project 3" class="project-img"/>
+                </div>
+                <h2 class="experience-sub-title project-title">Project Three</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https:github.com/'"> 
+                        <!-- Maybe link to a google drive folder with all the project outputs, instead of github -->
+                        <!-- Maybe github for those that are on github -->
+                        Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https:github.com/'"> 
+                        <!-- Maybe link to a google drive folder with all the project outputs, instead of github -->
+                        <!-- Maybe github for those that are on github -->
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'">
+      </section>
+      <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="email icon" class="icon contact-icon email-icon"/>
+                <p><a href="mailto:aaodumosu18@gmail.com">aaodumosu18@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" alt="linkedin icon" class="icon contact-icon"/>
+                <p><a href="https://www.linkedin.com/in/aaliyah-odumosu">linkedin</a></p>
+            </div>
+        </div>
+      </section>
+      <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                  </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Aaliyah Odumosu. All Rights Reserved</p>
+      </footer>
+    <script src="script.js"></script>
+ </body>
+</html>
